@@ -30,6 +30,12 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Features
+  auth:
+    path: features/auth
+  home:
+    path: features/home 
+
    # Data
   data: 
     path: data
