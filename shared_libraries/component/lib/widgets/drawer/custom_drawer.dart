@@ -139,7 +139,7 @@ class CustomDrawer extends StatelessWidget {
                               child: GestureDetector(
                                 onTap: () {
                                   context.read<DrawerCubit>().setDrawer(false);
-                                  context.read<ProfileTypeCubit>().setType(0);
+                                  context.read<ProfileTypeCubit>().setType(1);
                                   nextPage(context, const ProfilePage());
                                 },
                                 child: itemProfile('Pengaturan'),

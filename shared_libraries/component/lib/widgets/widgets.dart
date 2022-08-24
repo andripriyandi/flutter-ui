@@ -7,3 +7,4 @@ export 'product/product_item.dart';
 export 'hospital/hospital_item.dart';
 export 'hospital/hospital_type_item.dart';
 export 'banner/banner.dart';
+export 'profile/profile_type_item.dart';
