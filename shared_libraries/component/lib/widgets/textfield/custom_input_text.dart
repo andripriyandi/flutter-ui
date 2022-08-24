@@ -1,6 +1,5 @@
 import 'package:component/theme/theme.dart';
 import 'package:flutter/material.dart';
-import 'package:dependencies/flutter_screenutil/flutter_screenutil.dart';
 
 class CustomInputText extends StatefulWidget {
   final String? title;
