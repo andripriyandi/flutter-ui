@@ -1,4 +1,4 @@
-name: component
+name: profile
 description: A new Flutter package project.
 version: 0.0.1
 publish_to: "none"
@@ -11,18 +11,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  
+
   # Resources
   resources:
     path: ../../resources/resources
   
-  # Features
-  home:
-    path: ../../features/home
-
   # Shared Libraries
+  component:
+    path: ../../shared_libraries/component
   dependencies:
-    path: ../dependencies
+    path: ../../shared_libraries/dependencies
 
 dev_dependencies:
   flutter_test:

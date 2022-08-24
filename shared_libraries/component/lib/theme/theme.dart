@@ -11,6 +11,11 @@ Color kRedColor = const Color(0xffEB0004);
 Color kBlackColor = Colors.black;
 Color kWhiteColor = Colors.white;
 Color kGreyLightColor = const Color(0xffBEBEBE);
+Color kYellowColor = const Color(0xffFFEA00);
+Color kOrangeColor = const Color(0xffFF7200);
+Color kGreenColor = const Color(0xff007025);
+Color kGreenLightColor = const Color(0xffB3FFCB);
+Color kCyanColor = const Color(0xff00D9D5);
 
 // TextStyle
 TextStyle primaryTextStyle = TextStyle(
@@ -40,6 +45,15 @@ TextStyle whiteTextStyle = TextStyle(
 TextStyle greyLightTextStyle = TextStyle(
   fontFamily: 'Gilroy',
   color: kGreyLightColor,
+);
+TextStyle orangeTextStyle = TextStyle(
+  fontFamily: 'Gilroy',
+  color: kOrangeColor,
+);
+
+TextStyle greenTextStyle = TextStyle(
+  fontFamily: 'Gilroy',
+  color: kGreenColor,
 );
 
 // FontWeight

@@ -4,6 +4,7 @@ import 'package:component/utils/next_page.dart';
 import 'package:component/widgets/widgets.dart';
 import 'package:dependencies/flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter/material.dart';
+import 'package:home/presentation/ui/home_page.dart';
 import 'package:resources/constant/string_constant.dart';
 
 class SignInPage extends StatefulWidget {
@@ -66,7 +67,9 @@ class _SignInPageState extends State<SignInPage> {
                     ),
                     child: ButtonPrimary(
                       title: 'Login',
-                      onTap: () {},
+                      onTap: () {
+                        nextPage(context, const HomePage());
+                      },
                     ),
                   ),
                   Padding(
