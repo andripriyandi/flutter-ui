@@ -12,6 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Features
+  home:
+    path: ../home
+
   # Resources
   resources:
     path: ../../resources/resources
