@@ -16,6 +16,7 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePageState extends State<ProfilePage> {
   final TextEditingController _firstNameController = TextEditingController();
   final TextEditingController _lastNameController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
   final TextEditingController _noKtpController = TextEditingController();
   final TextEditingController _phoneController = TextEditingController();
 
@@ -96,9 +97,10 @@ class _ProfilePageState extends State<ProfilePage> {
             Padding(
               padding: const EdgeInsets.only(top: 30),
               child: CustomInputText(
-                title: 'No Telpon',
-                hintText: 'Masukkan No telpon anda',
-                controller: _phoneController,
+                title: 'Email',
+                hintText: 'Masukkan email anda',
+                controller: _emailController,
+                inputType: TextInputType.emailAddress,
               ),
             ),
             Padding(

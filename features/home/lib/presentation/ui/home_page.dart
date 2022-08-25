@@ -393,7 +393,7 @@ class HomePage extends StatelessWidget {
                       children: [
                         ProductTypeItem(
                           isActive: state == 0,
-                          title: 'Satuan',
+                          title: 'All Product',
                           onTap: () {
                             context.read<ProductTypeCubit>().setType(0);
                           },
